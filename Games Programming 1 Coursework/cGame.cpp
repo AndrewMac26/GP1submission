@@ -624,8 +624,7 @@ void cGame::update(double deltaTime)
 
 			}
 		}
-		// THis is a change
-		cout << "Ahhhhhhhhhhh!!!!!!!!!!";
+
 		for (vector<cAsteroid*>::iterator asteroidIterator = theAsteroids.begin(); asteroidIterator != theAsteroids.end(); ++asteroidIterator)
 		{
 			if ((*asteroidIterator)->collidedWith(&(*asteroidIterator)->getBoundingRect(), &(theRocket.getBoundingRect())))
