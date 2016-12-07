@@ -30,7 +30,7 @@ using namespace std::chrono;
 using namespace std;
 
 //Define the string to appear in the top left corner of the window
-#define WINDOW_TITLE "All My Own Stunts"
+#define WINDOW_TITLE "All My Own Stunts - Andrew MacFarlane"
 #define WINDOW_WIDTH 1024
 #define WINDOW_HEIGHT 768
 
